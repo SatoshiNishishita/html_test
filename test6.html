@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<!--IEで表示した時にレイアウトが崩れないようにする-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title></title>
+
+<!--Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!--スマートフォンなどでブラウザいっぱいに画面幅を合わせる-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<div class="container">
+	<h1>テーブルの例</h1>
+	<p>テーブルをレスポンシブに記述し行の色を変える</p>
+	<div class="table-responsive">
+		<table class="table">
+			<tr>
+				<th>注文番号</th><th>注文者氏名</th><th>注文者番号</th>
+				<th>注文金額</th><th>ステータス</th><th>操作</th>
+			</tr>
+			<tr class="warning">
+				<td>100</td><td>山田三朗</td><td>03-1234-5678</td>
+				<td class="text-right">¥5000</td><td>注文中</td><td><a href="#">詳細</a></td>
+			</tr>
+			<tr>
+				<td>101</td><td>鈴木史朗</td><td>03-2345-7890</td>
+				<td class="text-right">¥15000</td><td>入金待ち</td><td><a href="#">詳細</a></td>
+			</tr>
+			<tr>
+				<td>102</td><td>田中五郎</td><td>03-3456-7890</td>
+				<td class="text-right">¥32000</td><td>発送中</td><td><a href="#">詳細</a></td>
+			</tr>
+			<tr class="success">
+				<td>103</td><td>加藤六輔</td><td>03-4567-8901</td>
+				<td class="text-right">¥30000</td><td>発送完了</td><td><a href="#">詳細</a></td>
+			</tr>
+		</table>
+	</div>
+
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script >
+</body>
+</html>
